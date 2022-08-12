@@ -47,18 +47,18 @@
       </nav>
     </header>
     <main class="container text-center my-5">
-        <section class="titulo fondoAzul">
+        <section class="titulo fondoAzul" id="sectionContenedor">
             <p id="fecha"></p>
             <p id="hora"></p>
         </section>
         <section class="mt-5">
-            <button class="btn btnAzul">Azul</button>
-            <button class="btn btnRosa mx-2">Rosa</button>
-            <button class="btn btnVerde">Verde</button>
+            <button class="btn btnAzul" onclick="fondoAzul()">Azul</button>
+            <button class="btn btnRosa mx-2" onclick="fondoRosa()">Rosa</button>
+            <button class="btn btnVerde" onclick="fondoVerde()">Verde</button>
         </section>
         <section  class="mt-4">
-            <button class="btn btn-dark mx-2">Tema Oscuro</button>
-            <button class="btn btn-light mx-2">Tema Claro</button>
+            <button class="btn btn-dark mx-2" onclick="temaOscuro()">Tema Oscuro</button>
+            <button class="btn btn-light mx-2" onclick="temaClaro()">Tema Claro</button>
         </section>
     </main>
     <footer class="bg-black text-white text-center py-4">

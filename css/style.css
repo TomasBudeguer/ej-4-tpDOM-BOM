@@ -4,6 +4,10 @@
     background: black;
 }
 
+.claro{
+    background: white;
+}
+
 .titulo{
     font-family: 'Orbitron', sans-serif;
     font-size: 2em;
@@ -44,9 +48,18 @@
 .btnAzul{
     background: #7bacff;
 }
+.btnAzul:hover{
+    background: #7bacff;
+}
 .btnRosa{
     background: #de7bff;
 }
+.btnRosa:hover{
+    background: #de7bff;
+}
 .btnVerde{
+    background: #5adacf;
+}
+.btnVerde:hover{
     background: #5adacf;
 }
